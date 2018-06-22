@@ -12,37 +12,41 @@ public class MergeSort extends BaseSort {
     }
 
     //递归实现
-    private void mergeSortImplementRecur(int[] data, int firstIndex, int lastIndex, int[] tmp) {
-        if (firstIndex >= lastIndex) {//递归的截止条件
-            return;
+    private void mergeSortImplementRecur(int[] data, int startIndex, int endIndex, int[] tmp) {
+        if (startIndex < endIndex) {
+            int mid = (startIndex + endIndex) / 2;
+            mergeSortImplementRecur(data, startIndex, mid, tmp);
+            mergeSortImplementRecur(data, mid + 1, endIndex, tmp);
+            mergeArray(data, startIndex, mid, endIndex, tmp);
         }
-        int midIndex = (firstIndex + lastIndex) / 2;
-        mergeSortImplementRecur(data, firstIndex, midIndex, tmp);
-        mergeSortImplementRecur(data, midIndex + 1, lastIndex, tmp);
-        mergeArray(data, firstIndex, midIndex, lastIndex, tmp);
     }
 
-    private void mergeArray(int[] data, int firstIndex, int midIndex, int lastIndex, int[] tmp) {
-        int i = firstIndex;
-        int n = midIndex;
-        int j = midIndex + 1;
-        int m = lastIndex;
+    //非递归实现
+    private void mergeSortImplementIter(int[] data, int startIndex, int endIndex, int[] tmp) {
+
+    }
+
+    private void mergeArray(int[] data, int start, int mid, int last, int[] tmp) {
+        int i = start;
+        int n = mid;
+        int j = mid + 1;
+        int m = last;
         int k = 0;
-        while (i <= n && j <= m) {//逐一比较，将小的放入到 tmp数组中
+        while (i <= n && j <= m) {
             if (data[i] < data[j]) {
                 tmp[k++] = data[i++];
             } else {
                 tmp[k++] = data[j++];
             }
         }
-        while (i <= n) {//两个数组长度不一致时
+        while (i <= n) {
             tmp[k++] = data[i++];
         }
         while (j <= m) {
             tmp[k++] = data[j++];
         }
-        for (i = 0; i < k; i++) {//复制到tmp数组中
-            data[firstIndex + i] = tmp[i];
+        for (i = 0; i < k; i++) {
+            data[start + i] = tmp[i];
         }
     }
 
