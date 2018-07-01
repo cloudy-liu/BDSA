@@ -1,8 +1,10 @@
+/**
+ * Author: cloudy
+ * Date  : 2018-6-14
+ */
+
 package com.my.test;
 
-/**
- *
- */
 public class QuickSort extends BaseSort {
 
     private static final int MAX_SORT_NUMBER = 9;

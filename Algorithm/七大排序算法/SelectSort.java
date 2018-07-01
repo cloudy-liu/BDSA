@@ -1,8 +1,10 @@
+/**
+ * Author: cloudy
+ * Date  : 2018-6-14
+ */
+
 package com.my.test;
 
-/**
- *
- */
 public class SelectSort extends BaseSort{
 
     public void selectSort(int[] data) {//升序排序

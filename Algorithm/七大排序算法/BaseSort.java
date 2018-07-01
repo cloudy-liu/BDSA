@@ -1,8 +1,10 @@
+/**
+ * Author: cloudy
+ * Date  : 2018-6-14
+ */
+
 package com.my.test;
 
-/*
-实现基本的交换和打印数组的功能
- */
 public class BaseSort {
     public static int[][] data = new int[][]{
             new int[]{10, 9, 8, 7, 6, 5, 5, 4, 3, 2, 1, 0},

@@ -1,8 +1,10 @@
+/**
+ * Author: cloudy
+ * Date  : 2018-6-14
+ */
+
 package com.my.test;
 
-/**
- * related blog link:
- */
 public class ShellSort extends BaseSort {
 
     public void shellSort(int[] data) {

@@ -1,8 +1,9 @@
-package com.my.test;
-
-/*
-博客讲解:https://www.liuyun.fun/2018/06/16/七大排序算法之插入排序(3)
+/**
+ * Author: cloudy
+ * Date  : 2018-6-14
  */
+
+package com.my.test;
 
 public class InsertSort extends BaseSort {
 

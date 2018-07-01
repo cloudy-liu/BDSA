@@ -1,8 +1,10 @@
 package com.my.test;
 
 /**
- * related blog link:
+ * author: cloudy
+ * date  : 2018-6-14
  */
+
 public class BubbleSort extends BaseSort {
     public void bubbleSort(int[] data) {
         int rightSide = data.length;
