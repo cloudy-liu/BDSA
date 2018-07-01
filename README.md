@@ -1,14 +1,25 @@
-# Data Structure And Algorithm
-summary basic data structure and algorithm including leetcode
+# Basic Data Structures And Algorithm
+summary basic data structures and algorithm including leetcode solution
 
-## [七大排序算法](https://github.com/cloudy-liu/DataStructureAndAlgorithm/tree/master/%E4%B8%83%E5%A4%A7%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95)
+## Algorithm
 
-* [冒泡排序](https://github.com/cloudy-liu/DataStructureAndAlgorithm/blob/master/%E4%B8%83%E5%A4%A7%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/BubbleSort.java)
-* [选择排序](https://github.com/cloudy-liu/DataStructureAndAlgorithm/blob/master/%E4%B8%83%E5%A4%A7%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/SelectSort.java)
-* [插入排序](https://github.com/cloudy-liu/DataStructureAndAlgorithm/blob/master/%E4%B8%83%E5%A4%A7%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/SelectSort.java)
-* [希尔排序](https://github.com/cloudy-liu/DataStructureAndAlgorithm/blob/master/%E4%B8%83%E5%A4%A7%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/ShellSort.java)
-* [归并排序](https://github.com/cloudy-liu/DataStructureAndAlgorithm/blob/master/%E4%B8%83%E5%A4%A7%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/MergeSort.java)
-* [快速排序](https://github.com/cloudy-liu/DataStructureAndAlgorithm/blob/master/%E4%B8%83%E5%A4%A7%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/QuickSort.java)
+### 七大排序算法
 
-## [斐波那契数列](https://github.com/cloudy-liu/DataStructureAndAlgorithm/tree/master/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91)
+| Type     | Implement |
+| -------- | --------- |
+| 冒泡排序 | Java      |
+| 选择排序 | Java      |
+| 插入排序 | Java      |
+| 希尔排序 | Java      |
+| 归并排序 | Java      |
+| 堆排序   | Java      |
+| 快速排序 | Java      |
+
+### 数列
+
+| Type     | Implement |
+| -------- | --------- |
+| 斐波那契 | Java      |
+
+## leetcode
 
