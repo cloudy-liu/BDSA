@@ -23,7 +23,7 @@ summary basic data structures and algorithm including leetcode solution
 
 ## leetcode
 
-| No.  | Problem                                                      | Solution | Explain                                               | Difficulty |
-| ---- | ------------------------------------------------------------ | -------- | ----------------------------------------------------- | ---------- |
-| 20   | [  Valid Parentheses ](https://leetcode.com/problems/valid-parentheses/description/) | Java     | [blog](https://www.liuyun.fun/2018/07/01/leetcode20/) | Easy       |
+| No.  | Problem                                                      | Solution                                                     | Explain                                               | Difficulty |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------------- | ---------- |
+| 20   | [  Valid Parentheses ](https://leetcode.com/problems/valid-parentheses/description/) | [Java](https://github.com/cloudy-liu/BDSA/tree/master/leetcode/20-Valid%20Parentheses) | [blog](https://www.liuyun.fun/2018/07/01/leetcode20/) | Easy       |
 

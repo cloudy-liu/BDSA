@@ -72,7 +72,7 @@ public class FibTest {
         }
         System.out.println("iter spend : " + (System.currentTimeMillis() - start) + " ms");
     }
-}
+ }
 
 
 /* output
