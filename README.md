@@ -20,7 +20,7 @@ summary basic data structures and algorithm including leetcode solution
 | Type     | Implement                                                    |
 | -------- | ------------------------------------------------------------ |
 | 斐波那契 | [Java](https://github.com/cloudy-liu/BDSA/blob/master/Algorithm/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91/FibTest.java) |
-
+| 素数 | [Java](https://github.com/cloudy-liu/BDSA/tree/master/Algorithm/%E7%B4%A0%E6%95%B0) |
 ## leetcode
 
 | No.  | Problem                                                      | Solution                                                     | Explain                                               | Difficulty |
