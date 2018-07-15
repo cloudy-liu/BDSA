@@ -12,7 +12,7 @@ summary basic data structures and algorithm including leetcode solution
 | 插入排序 | [Java](https://github.com/cloudy-liu/BDSA/blob/master/Algorithm/%E4%B8%83%E5%A4%A7%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/InsertSort.java) |                                                              |
 | 希尔排序 | [Java](https://github.com/cloudy-liu/BDSA/blob/master/Algorithm/%E4%B8%83%E5%A4%A7%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/ShellSort.java) |                                                              |
 | 归并排序 | [Java](https://github.com/cloudy-liu/BDSA/blob/master/Algorithm/%E4%B8%83%E5%A4%A7%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/MergeSort.java) |                                                              |
-| 堆排序   | TODO                                                         |                                                              |
+| 堆排序   |                                                              |                                                              |
 | 快速排序 | [Java](https://github.com/cloudy-liu/BDSA/blob/master/Algorithm/%E4%B8%83%E5%A4%A7%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/QuickSort.java) |                                                              |
 
 ### 数列
