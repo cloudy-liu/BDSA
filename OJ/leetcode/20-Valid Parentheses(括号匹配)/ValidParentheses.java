@@ -12,7 +12,6 @@
 import java.util.HashMap;
 import java.util.Stack;
 
-import com.sun.corba.se.spi.orbutil.fsm.State;
 
 public class ValidParentheses {
 
