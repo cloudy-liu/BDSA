@@ -25,8 +25,6 @@ Explanation: 342 + 465 = 807.
  * Definition for singly-linked list.
  */
 
-import java.util.HashMap;
-
 class ListNode {
     int val;
     ListNode next;
@@ -119,8 +117,7 @@ public class AddTwoNumbers {
             sum = ((l1 != null) ? l1.val : 0) + ((l2 != null) ? l2.val : 0) + carry;
             carry = sum / 10;
             sum %= 10;
-            ListNode cur = new ListNode(sum);
-            pre.next = cur;
+            pre.next = new ListNode(sum);
             pre = pre.next;
 
             l1 = (l1 != null) ? l1.next : null;
