@@ -21,7 +21,6 @@
  * 就是遍历S元素 char,存在 J中，cnt++.
  */
 
-import java.util.HashMap;
 
 public class JewelsAndStones {
     public int numJewelsInStones(String J, String S) {
