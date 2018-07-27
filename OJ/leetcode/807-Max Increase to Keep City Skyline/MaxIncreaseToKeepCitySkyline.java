@@ -62,30 +62,30 @@ public class MaxIncreaseToKeepCitySkyline {
         // int rst = 0;
         // HashMap<Integer, Integer> map = new HashMap<>();
         // for (int i = 0; i < rowLen; i++) {
-        // // rowMax
-        // rowMax = 0;
-        // for (int k = 0; k < colLen; k++) {
-        // if (grid[i][k] > rowMax) {
-        // rowMax = grid[i][k];
-        // }
-        // }
-        // for (int j = 0; j < colLen; j++) {
-        // // colMax
-        // if (!map.containsKey(j)) {
-        // colMax = 0;
-        // for (int m = 0; m < rowLen; m++) {
-        // if (grid[m][j] > colMax) {
-        // colMax = grid[m][j];
-        // }
-        // }
-        // map.put(j, colMax);
-        // } else {
-        // colMax = map.get(j);
-        // }
+        //     // rowMax
+        //     rowMax = 0;
+        //     for (int k = 0; k < colLen; k++) {
+        //         if (grid[i][k] > rowMax) {
+        //             rowMax = grid[i][k];
+        //         }
+        //     }
+        //     for (int j = 0; j < colLen; j++) {
+        //         // colMax
+        //         if (!map.containsKey(j)) {
+        //             colMax = 0;
+        //             for (int m = 0; m < rowLen; m++) {
+        //                 if (grid[m][j] > colMax) {
+        //                     colMax = grid[m][j];
+        //                 }
+        //             }
+        //             map.put(j, colMax);
+        //         } else {
+        //             colMax = map.get(j);
+        //         }
 
-        // int DiffValue = Math.min(rowMax, colMax);
-        // rst += (DiffValue - grid[i][j]);
-        // }
+        //         int DiffValue = Math.min(rowMax, colMax);
+        //         rst += (DiffValue - grid[i][j]);
+        //     }
         // }
         // return rst;
 
@@ -101,8 +101,8 @@ public class MaxIncreaseToKeepCitySkyline {
         int rst = 0;
         for (int i = 0; i < rowLen; i++) {
             for (int j = 0; j < colLen; j++) {
-                rowMax[i] = Math.max(rowMax[i], grid[i][j]);//存储每行的最大值 i为行号
-                colMax[j] = Math.max(colMax[j], grid[i][j]);//存储每列的最大值，j为列号
+                rowMax[i] = Math.max(rowMax[i], grid[i][j]);// 存储每行的最大值 i为行号
+                colMax[j] = Math.max(colMax[j], grid[i][j]);// 存储每列的最大值，j为列号
             }
         }
         for (int i = 0; i < rowLen; i++) {

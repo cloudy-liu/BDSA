@@ -1,0 +1,161 @@
+[33mcommit f3e4a8181e766ab6e1363f5de811423cb8c5a9d2[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: cloudy-liu <cloudy.liuu@gmail.com>
+Date:   Thu Jul 26 08:43:41 2018 +0800
+
+    solved leetcode-807 Max Increase to keep city skyline V1
+
+[33mcommit 428c53ba5c5cb0c8fa0a4e1d03ed28c5987ee9b9[m
+Author: cloudy-liu <cloudy.liuu@gmail.com>
+Date:   Wed Jul 25 08:21:18 2018 +0800
+
+    solve leetcode-771 Jewels and Stones
+
+[33mcommit b46b82356161fa7165112d2e5f3ddef313c2ffe9[m
+Author: cloudy-liu <cloudy.liuu@gmail.com>
+Date:   Tue Jul 24 00:29:54 2018 +0800
+
+    update Leetcode README table
+
+[33mcommit 15656d4bb8132c85127e106f3d758ac8c41d20f3[m
+Author: cloudy-liu <cloudy.liuu@gmail.com>
+Date:   Tue Jul 24 00:20:05 2018 +0800
+
+    resolved leedcode-3 longest substring
+
+[33mcommit b5044143e0aa10c81352fdc3dde33d4ef22442cb[m
+Author: cloudy-liu <cloudy.liuu@gmail.com>
+Date:   Mon Jul 23 23:43:15 2018 +0800
+
+    fix typo error
+
+[33mcommit a318cceeeef13c1ad69895c584fd29048241a9ce[m
+Author: cloudy-liu <cloudy.liuu@gmail.com>
+Date:   Mon Jul 23 23:40:32 2018 +0800
+
+    resolved leedcode-2 Add Two Numbers
+
+[33mcommit 376710f916acbd3ca411d2b585f0ea08d97e0386[m
+Author: cloudy-liu <cloudy.liuu@gmail.com>
+Date:   Mon Jul 23 23:23:30 2018 +0800
+
+    resolve leedcode-2 Add Two Numbers
+
+[33mcommit b06da86f6ab0310656d1f6be28d05c8d70cc93b8[m
+Author: cloudy-liu <cloudy.liuu@gmail.com>
+Date:   Sun Jul 22 13:58:03 2018 +0800
+
+    solve leedcode-1 TwoSum
+
+[33mcommit 6db6d1d84f0b1fcf931927e0bc8119c4f6a199ff[m
+Author: cloudy-liu <cloudy.liuu@gmail.com>
+Date:   Sun Jul 22 12:08:41 2018 +0800
+
+    verify password
+
+[33mcommit 00125c663f4cc0baf0d735bf6a47a1c8943e758a[m
+Author: cloudy-liu <cloudy.liuu@gmail.com>
+Date:   Thu Jul 19 18:03:21 2018 +0800
+
+    resolve simple error record
+
+[33mcommit 13179107a72db646b5e46a8bd457208680388c3d[m
+Author: cloudy-liu <cloudy-liuu@gmail.com>
+Date:   Tue Jul 17 22:21:40 2018 +0800
+
+    update heapsort README
+
+[33mcommit 1e781cf36d2e82690b77d7eff56c1bc26966d2e9[m
+Author: cloudy-liu <cloudy-liuu@gmail.com>
+Date:   Sun Jul 15 20:40:53 2018 +0800
+
+    update heapsort
+
+[33mcommit aae7bee03729e6f7402c7ad41668ce573e9a1efb[m
+Author: cloudy-liu <cloudy-liuu@gmail.com>
+Date:   Mon Jul 9 01:21:46 2018 +0800
+
+    udpate README
+
+[33mcommit e44c15308d187547a42a01279c17361a2d546201[m
+Author: cloudy-liu <cloudy-liuu@gmail.com>
+Date:   Mon Jul 9 01:12:54 2018 +0800
+
+    add OJ folder and update Huawei AC problems
+
+[33mcommit 90aa52eeefd6fa56375a22b9729c9127bed60373[m
+Author: cloudy-liu <cloudy-liuu@gmail.com>
+Date:   Sun Jul 1 23:43:31 2018 +0800
+
+    add leetcode-20 source code
+
+[33mcommit 7bae85e9e77855b9719b147689a6bb181ab1f0c0[m
+Author: cloudy-liu <cloudy-liuu@gmail.com>
+Date:   Sun Jul 1 23:29:27 2018 +0800
+
+    udpate leetcode-20 valid parenthese
+
+[33mcommit 63c2887e54fa34733de4db6740de65ef93dafbbe[m
+Author: cloudy-liu <cloudy-liuu@gmail.com>
+Date:   Sun Jul 1 22:06:48 2018 +0800
+
+    update code info
+
+[33mcommit 11c7874ae5a2fec42987d8937da920cab74ff41f[m
+Author: cloudy-liu <cloudy-liuu@gmail.com>
+Date:   Sun Jul 1 21:51:54 2018 +0800
+
+    udpate README
+
+[33mcommit 376adad223676ff4a41fedea64ce2d4e4ac37d24[m
+Author: cloudy-liu <cloudy-liuu@gmail.com>
+Date:   Sun Jul 1 21:48:32 2018 +0800
+
+    udpate README
+
+[33mcommit 1689891ea05f69d6e61060e77e340ccce9b410c6[m
+Author: cloudy-liu <cloudy-liuu@gmail.com>
+Date:   Sun Jul 1 21:38:08 2018 +0800
+
+    re-origanize project  folder
+
+[33mcommit 124e080a47ad9ec980df6af207d1c34503d9a6ed[m
+Author: cloudy-liu <cloudy-liuu@gmail.com>
+Date:   Sat Jun 23 01:08:53 2018 +0800
+
+    update README
+
+[33mcommit 1b405aa3e0da540bdd293b089d91839fdffa7122[m
+Author: cloudy-liu <cloudy-liuu@gmail.com>
+Date:   Sat Jun 23 01:05:04 2018 +0800
+
+    update quick sort implements and Fibnacc
+
+[33mcommit 3d1ef0491a628078094dd81e5db78a482dde111e[m
+Author: cloudy-liu <cloudy-liuu@gmail.com>
+Date:   Tue Jun 19 08:25:02 2018 +0800
+
+    update other sort implements
+
+[33mcommit 09ceb4f2dc043bf9adf83d779529b453e289c79d[m
+Author: cloudy-liu <cloudy-liuu@gmail.com>
+Date:   Sat Jun 16 20:54:16 2018 +0800
+
+    add select sort implement
+
+[33mcommit e9f080b4591c22883e0db12934d4fedbd73fdc75[m
+Author: cloudy-liu <cloudy-liuu@gmail.com>
+Date:   Sat Jun 16 20:14:50 2018 +0800
+
+    add Bubble sort test result
+
+[33mcommit 7e61eb6745096b5e4b67bffa11e36ad682957d2a[m
+Author: cloudy-liu <cloudy-liuu@gmail.com>
+Date:   Sat Jun 16 19:22:17 2018 +0800
+
+    Bubble sort
+
+[33mcommit 016a341c035fbbc7539c97d2fbb14fa9bc475fe5[m
+Author: cloudy <cloudy.liuu@gmail.com>
+Date:   Sat Jun 16 18:15:31 2018 +0800
+
+    Initial commit
