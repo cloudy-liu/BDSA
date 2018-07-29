@@ -1,9 +1,11 @@
 # Basic Data Structures And Algorithm
-summary basic data structures and algorithm including leetcode solution
+Summary basic data structures and algorithm including leetcode solution
+
+[TOC]
 
 ## Algorithm
 
-### 七大排序算法
+#### 七大排序算法
 
 | Type     | Implement                                                    | Explain                                                      |
 | -------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -15,13 +17,13 @@ summary basic data structures and algorithm including leetcode solution
 | 堆排序   | [Java](https://github.com/cloudy-liu/BDSA/blob/master/Algorithm/%E4%B8%83%E5%A4%A7%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/HeapSort.java) |                                                              |
 | 快速排序 | [Java](https://github.com/cloudy-liu/BDSA/blob/master/Algorithm/%E4%B8%83%E5%A4%A7%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/QuickSort.java) |                                                              |
 
-### 数列
+#### 数列
 
 | Type     | Implement                                                    |
 | -------- | ------------------------------------------------------------ |
 | 斐波那契 | [Java](https://github.com/cloudy-liu/BDSA/blob/master/Algorithm/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91/FibTest.java) |
 | 素数 | [Java](https://github.com/cloudy-liu/BDSA/tree/master/Algorithm/%E7%B4%A0%E6%95%B0) |
-## leetcode
+## LeetCode
 
 | No.  | Problem                                                      | Solution                                                     | Explain                                               | Difficulty |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------------- | ---------- |
