@@ -1,8 +1,6 @@
 # Basic Data Structures And Algorithm
 Summary basic data structures and algorithm including leetcode solution
 
-[TOC]
-
 ## Algorithm
 
 #### 七大排序算法
@@ -27,8 +25,13 @@ Summary basic data structures and algorithm including leetcode solution
 
 | No.  | Problem                                                      | Solution                                                     | Explain                                               | Difficulty |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------------- | ---------- |
-| 1    | [ Two Sum ](https://leetcode.com/problems/two-sum/description/)(数组两数之和) | [Java](https://github.com/cloudy-liu/BDSA/tree/master/OJ/leetcode/1-Two%20Sum(%E4%B8%A4%E4%B8%AA%E6%95%B0%E4%B9%8B%E5%92%8C)) | Yes                                                   | Easy       |
-| 2    | [ Add Two Numbers ](https://leetcode.com/problems/add-two-numbers/description/)(链表两数相加) | [Java](https://github.com/cloudy-liu/BDSA/tree/master/OJ/leetcode/2-Add%20Two%20Numbers(%E9%93%BE%E8%A1%A8%E6%95%B0%E4%B8%AD2%E4%B8%AA%E6%95%B0%E7%9B%B8%E5%8A%A0)) | Yes                                                   | Medium     |
-| 3    | [ Longest Substring Without Repeating Characters (](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)不重复最长子串) | [Java](https://github.com/cloudy-liu/BDSA/tree/master/OJ/leetcode/3-Longest%20Substring%20Without%20Repeating%20Characters(%E4%B8%8D%E9%87%8D%E5%A4%8D%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2)) | Yes                                                   | Medium     |
-| 20   | [  Valid Parentheses ](https://leetcode.com/problems/valid-parentheses/description/)(括号匹配) | [Java](https://github.com/cloudy-liu/BDSA/tree/master/leetcode/20-Valid%20Parentheses) | [blog](https://www.liuyun.fun/2018/07/01/leetcode20/) | Easy       |
+| 1    | [Two Sum ](https://leetcode.com/problems/two-sum/description/) | [Java](https://github.com/cloudy-liu/BDSA/tree/master/OJ/leetcode/1-Two%20Sum(%E4%B8%A4%E4%B8%AA%E6%95%B0%E4%B9%8B%E5%92%8C)) | Yes                                                   | Easy       |
+| 2    | [Add Two Numbers ](https://leetcode.com/problems/add-two-numbers/description/) | [Java](https://github.com/cloudy-liu/BDSA/tree/master/OJ/leetcode/2-Add%20Two%20Numbers(%E9%93%BE%E8%A1%A8%E6%95%B0%E4%B8%AD2%E4%B8%AA%E6%95%B0%E7%9B%B8%E5%8A%A0)) | Yes                                                   | Medium     |
+| 3    | [Longest Substring Without Repeating Characters]( https://leetcode.com/problems/longest-substring-without-repeating-characters ) | [Java](https://github.com/cloudy-liu/BDSA/tree/master/OJ/leetcode/3-Longest%20Substring%20Without%20Repeating%20Characters(%E4%B8%8D%E9%87%8D%E5%A4%8D%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2)) | Yes                                                   | Medium     |
+| 20   | [Valid Parentheses ](https://leetcode.com/problems/valid-parentheses/description/) | [Java](https://github.com/cloudy-liu/BDSA/tree/master/leetcode/20-Valid%20Parentheses) | [blog](https://www.liuyun.fun/2018/07/01/leetcode20/) | Easy       |
+| 535  | [Encode and Decode TinyURL]( https://leetcode.com/problems/encode-and-decode-tinyurl/description/ ) | [Java](https://github.com/cloudy-liu/BDSA/tree/master/OJ/leetcode/535-Encode%20and%20Decode%20TinyURL) | Yes                                                   | Medium     |
+| 709  | [To Lower Case]( https://leetcode.com/problems/to-lower-case/description/ ) | [Java](https://github.com/cloudy-liu/BDSA/blob/master/OJ/leetcode/709-To%20Lower%20Case/ToLowerCase.java) | Yes                                                   | Easy       |
+| 771  | [Jewels and Stones]( https://leetcode.com/problems/jewels-and-stones  ) | [Java](https://github.com/cloudy-liu/BDSA/blob/master/OJ/leetcode/771-Jewels%20and%20Stones(%E7%8F%A0%E5%AE%9D%E5%92%8C%E7%9F%B3%E5%A4%B4)/JewelsAndStones.java) | Yes                                                   | Easy       |
+| 807  | [Max Increase to Keep City Skyline]( https://leetcode.com/problems/max-increase-to-keep-city-skyline/description/ ) | [Java](https://github.com/cloudy-liu/BDSA/tree/master/OJ/leetcode/807-Max%20Increase%20to%20Keep%20City%20Skyline) | Yes                                                   | Easy       |
+| 876  | [Middle of the Linked List]( https://leetcode.com/problems/middle-of-the-linked-list/description/ ) | [Java](https://github.com/cloudy-liu/BDSA/tree/master/OJ/leetcode/876-Middle%20of%20the%20Linked%20List(%E9%93%BE%E8%A1%A8%E4%B8%AD%E9%97%B4%E8%8A%82%E7%82%B9)) | Yes                                                   | Easy       |
 
