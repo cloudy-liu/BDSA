@@ -10,7 +10,7 @@ int lengthOfLongestSubstring(string s) {
     int j = 0;
     string rstStr;
     for(int i = 0; i < s.size(); ++i) {
-        if(recordMap.count(s[i])) { //map.count() 0»ò1£¬map.find()µü´úÆ÷
+        if(recordMap.count(s[i])) { //map.count() 0ï¿½ï¿½1ï¿½ï¿½map.find()ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
             j = max(j, recordMap[s[i]] + 1);
         }
         recordMap[s[i]] = i;
@@ -19,7 +19,7 @@ int lengthOfLongestSubstring(string s) {
             rstStr = s.substr(j, rst);
         }
     }
-    cout << rstStr << " ";
+    // cout << rstStr << " ";
     return rst;
 }
 
