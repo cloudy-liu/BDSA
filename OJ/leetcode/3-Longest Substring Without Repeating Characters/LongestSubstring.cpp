@@ -7,10 +7,9 @@ using namespace std;
 int lengthOfLongestSubstring(string s) {
     int rst = 0;
     map<char, int> recordMap;
-    int j = 0;
     string rstStr;
-    for(int i = 0; i < s.size(); ++i) {
-        if(recordMap.count(s[i])) { //map.count() 0��1��map.find()������
+    for(int i = 0, j = 0; i < s.size(); ++i) {
+        if(recordMap.count(s[i])) {//map.count()==map.containsKey()?
             j = max(j, recordMap[s[i]] + 1);
         }
         recordMap[s[i]] = i;
