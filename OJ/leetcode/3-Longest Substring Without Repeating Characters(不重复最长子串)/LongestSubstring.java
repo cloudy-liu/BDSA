@@ -14,47 +14,60 @@ Given "pwwkew", the answer is "wke", with the length of 3.
 Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
 
  * solution:
-使用一个 HashSet记录出现过的字符，每次遍历时查找这个set是否存在，
-若存在，则证明出现重复了，更新此时的长度，开启下一位的连续查询
  */
 
+import java.util.HashMap;
 import java.util.HashSet;
 
 public class LongestSubstring {
     public int lengthOfLongestSubstring(String s) {
-        HashSet<Character> set = new HashSet<>();
-        int len = s.length();
-        int rst = 0;
-        for (int i = 0; i < len; i++) {
-            for (int j = i; j < len; j++) {
-                Character c = s.charAt(j);
-                if (set.contains(c)) {
-                    break;
-                } else {
-                    set.add(c);
-                }
-            }
-            rst = Math.max(maxLen, set.size());
-            set.clear();
+        if (s == null) {
+            return 0;
         }
-        return rst;
+        /**
+         * V1: O(n^2) 思路：不重复用可使用hashset特征。两个指针，第一个指针逐一扫描整个字串，
+         * 第二个指针在第一个指针基础上右移，逐一检测是否有重复元素，有重复则停止，
+         * 更新长度，取当期结果与该次结果的最大值，set清空，开始下一次的扫描。
+         */
         // int rst = 0;
         // HashSet<Character> set = new HashSet<>();
-        // for (int i = 0; i < s.length(); i++) {
-        //     int j = i;
-        //     while (j < s.length() && !set.contains(s.charAt(j))) {
-        //         set.add(s.charAt(j));
-        //         j++;
+        // char[] cArray = s.toCharArray();
+        // for (int i = 0; i < cArray.length; i++) {
+        //     for (int j = i; j < cArray.length; j++) {
+        //         if (set.contains(cArray[j])) {
+        //             break;
+        //         } else {
+        //             set.add(cArray[j]);
+        //         }
         //     }
-        //     rst = Math.max(rst, j - i);
+        //     if (set.size() > rst) {
+        //         rst = set.size();
+        //     }
         //     set.clear();
         // }
         // return rst;
+
+        /**
+         * V2: O(n) 思路：两个指针，只扫描一次，用HashMap存该字符对应的索引值，若字符相同，则会更新
+         * 指针i遍历整个字符，指针j则记录相同字符最后位置的索引。遍历i时，逐一将该字符加入
+         * hashmap中，key=字符，val=索引值。若出现重复时，则更新j值，j为出现相同的最后位置+1。
+         * 结果长度就是 i-j+1.
+         */
+        int rst = 0;
+        HashMap<Character, Integer> map = new HashMap<>();
+        for (int i = 0, j = 0; i < s.length(); ++i) {
+            if (map.containsKey(s.charAt(i))) {
+                j = Math.max(j, map.get(s.charAt(i)) + 1);
+            }
+            map.put(s.charAt(i), i);
+            rst = Math.max(rst, i - j + 1);
+        }
+        return rst;
     }
 
     public static void main(String[] args) {
         LongestSubstring solution = new LongestSubstring();
-        String[] data = new String[] { "abcabcbb", "bbbbb", "pwwkew" ,"c"};
+        String[] data = new String[] { "abcabcbb", "bbbbb", "pwwkew", "c" };
         for (String s : data) {
             System.out.println(s + "-->" + solution.lengthOfLongestSubstring(s));
         }
