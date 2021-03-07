@@ -1,9 +1,11 @@
-# Basic Data Structures And Algorithm
-Summary basic data structures and algorithm including leetcode solution
+# 数据结构与算法练习
+包含基础数据结构与算法练习，包含 leetcode，剑指offer 刷题
 
-## Algorithm
+[TOC]
 
-#### 七大排序算法
+## 算法
+
+### 七大排序算法
 
 | Type     | Implement                                                    | Explain                                                      |
 | -------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -15,7 +17,7 @@ Summary basic data structures and algorithm including leetcode solution
 | 堆排序   | [Java](https://github.com/cloudy-liu/BDSA/blob/master/Algorithm/%E4%B8%83%E5%A4%A7%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/HeapSort.java) |                                                              |
 | 快速排序 | [Java](https://github.com/cloudy-liu/BDSA/blob/master/Algorithm/%E4%B8%83%E5%A4%A7%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/QuickSort.java) |                                                              |
 
-#### 数列
+###  数列
 
 | Type     | Implement                                                    |
 | -------- | ------------------------------------------------------------ |
@@ -34,4 +36,19 @@ Summary basic data structures and algorithm including leetcode solution
 | 771  | [Jewels and Stones]( https://leetcode.com/problems/jewels-and-stones  ) | [Java](https://github.com/cloudy-liu/BDSA/blob/master/OJ/leetcode/771-Jewels%20and%20Stones(%E7%8F%A0%E5%AE%9D%E5%92%8C%E7%9F%B3%E5%A4%B4)/JewelsAndStones.java) | Yes                                                   | Easy       |
 | 807  | [Max Increase to Keep City Skyline]( https://leetcode.com/problems/max-increase-to-keep-city-skyline/description/ ) | [Java](https://github.com/cloudy-liu/BDSA/tree/master/OJ/leetcode/807-Max%20Increase%20to%20Keep%20City%20Skyline) | Yes                                                   | Easy       |
 | 876  | [Middle of the Linked List]( https://leetcode.com/problems/middle-of-the-linked-list/description/ ) | [Java](https://github.com/cloudy-liu/BDSA/tree/master/OJ/leetcode/876-Middle%20of%20the%20Linked%20List(%E9%93%BE%E8%A1%A8%E4%B8%AD%E9%97%B4%E8%8A%82%E7%82%B9)) | Yes                                                   | Easy       |
+
+## 剑指Offer 
+
+| 数据结构类型 |                           Problem                            | 解法 |
+| :----------: | :----------------------------------------------------------: | :--: |
+|     数组     | [001-二维数组中查找](https://github.com/cloudy-liu/BDSA/tree/master/OJ/SwordOffer/001-%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E4%B8%AD%E6%9F%A5%E6%89%BE) | Java |
+|              |                                                              |      |
+|    字符串    | [002-替换空格](https://github.com/cloudy-liu/BDSA/tree/master/OJ/SwordOffer/002-%E6%9B%BF%E6%8D%A2%E7%A9%BA%E6%A0%BC) | Java |
+|              |                                                              |      |
+|     链表     | [003-逆序打印链表](https://github.com/cloudy-liu/BDSA/tree/master/OJ/SwordOffer/003-%E9%80%86%E5%BA%8F%E6%89%93%E5%8D%B0%E9%93%BE%E8%A1%A8) | Java |
+|              | [014-链表中倒数第k个节点](https://github.com/cloudy-liu/BDSA/tree/master/OJ/SwordOffer/014-%E9%93%BE%E8%A1%A8%E4%B8%AD%E5%80%92%E6%95%B0%E7%AC%ACk%E4%B8%AA%E8%8A%82%E7%82%B9) | Java |
+|              | [015-反转链表](https://github.com/cloudy-liu/BDSA/tree/master/OJ/SwordOffer/015-%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8) | Java |
+|   栈与队列   | [005-栈模拟队列](https://github.com/cloudy-liu/BDSA/tree/master/OJ/SwordOffer/005-%E6%A0%88%E6%A8%A1%E6%8B%9F%E9%98%9F%E5%88%97) | Java |
+|              |                                                              |      |
+|              |                                                              |      |
 

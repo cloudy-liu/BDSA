@@ -50,12 +50,6 @@ public class Solution {
         for (int i : a) {
             ListNode cur = new ListNode(i);
             if (head == null) {
-
-
-
-
-
-
                 head = pre = cur;
             } else {
                 pre.next = cur;
