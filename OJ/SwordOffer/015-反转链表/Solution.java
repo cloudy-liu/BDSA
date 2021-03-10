@@ -1,8 +1,7 @@
 /**
- * 输入一个链表，反转链表后，输出新链表的表头 
+ * 输入一个链表，反转链表后，输出新链表的表头
  * https://www.nowcoder.com/practice/75e878df47f24fdc9dc3e400ec6058ca?tpId=13&tags=&title=&diffculty=0&judgeStatus=0&rp=1&tab=answerKey
- * {1,2,3} -> {3,2,1} 
- * Date: 2021/3/7
+ * {1,2,3} -> {3,2,1} Date: 2021/3/7
  */
 
 class ListNode {
@@ -76,11 +75,27 @@ public class Solution {
         return newHead;
     }
 
+    public ListNode reverseListRecurise(ListNode head) {
+        if (head == null) {
+            return null;
+        }
+        //截止条件，当一个节点时，反转就是自己
+        if (head.next == null) {
+            return head;
+        }
+
+        //获取到下一段的新头节点
+        ListNode newHead = reverseListRecurise(head.next);
+        head.next.next = head; //将head.next 节点反转
+        head.next = null; //同时原来的头节点要置null
+        return newHead;
+    }
+
     public static void main(String[] args) {
         Solution s = new Solution();
         ListNode head = s.buildList(new int[] { 1, 2, 3, 4, 5, 6 });
         s.travalList(head);
 
-        s.travalList(s.reverseList(head));
+        s.travalList(s.reverseListRecurise(head));
     }
 }
